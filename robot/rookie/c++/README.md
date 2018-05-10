@@ -48,7 +48,7 @@ We have to tell the computer that the variable age is a float, because it won't 
 
 **Console Input/Output**
 
-Including `<iostream>` allows you to use `std::cin` and `std::cout`. `std::cout` is the C++ equivalent of the `print()` function in Python. `std::cin` is the C++ equivalent of the `input()` function. 
+Including `<iostream>` allows you to use `std::cin` and `std::cout`. `std::cout` is the C++ equivalent of the `print()` function in Python. `std::cin` is the C++ equivalent of the `raw_input()` function. 
 
 **More Misc. Initialization Syntax** 
 
