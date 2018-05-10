@@ -34,10 +34,6 @@ An example of a running program:
       return 0;
     }
 
-
-    
-
-
 ### Differences from Python
 
 **Type Declarations**
