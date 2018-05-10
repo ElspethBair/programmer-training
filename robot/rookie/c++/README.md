@@ -116,7 +116,7 @@ C++:
       std::string first_name, last_name;
     };
 
-In Python, constructors are always called `__init__`, however in C++, when you are naming your constructors, it is important that the constructor always has the same name as the class. For example, in the class above, the calss is named Person, and so is the constructor. 
+In Python, constructors are always called `__init__`, however in C++, when you are naming your constructors, it is important that the constructor always has the same name as the class. For example, in the class above, the class is named Person, and so is the constructor. 
 
 **Dynamic-size Arrays**
 
