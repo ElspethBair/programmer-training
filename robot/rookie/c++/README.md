@@ -98,7 +98,7 @@ Python:
          self.lastName = last
 
       def greet(self,name):
-         return "Hi, “,name,”! I'm ”,self.firstName, self.lastName,”!"
+         return "Hi, “, name,”! I'm ”, self.firstName, self.lastName, ”!"
 
 C++:
 
@@ -127,7 +127,7 @@ C++:
     std::vector<std::string> strings = {"hello", "how are you", "goodbye"};
 
     // Iteration
-for (int n = 0; n < 8; n++){
+    for (int n = 0; n < 8; n++) {
 
       std::cout << n << std::endl;
     }
@@ -135,11 +135,11 @@ for (int n = 0; n < 8; n++){
     // Check size
     std::cout << nums.size() << std::endl;
 
-    nums.push_back(7); // Add value
+    nums.push_back(7);  // Add value
 
 Python:
 
-    nums = [1,2,3,5,7,11]
+    nums = [1, 2, 3, 5, 7, 11]
     strings = ["hello", "how are you", "goodbye"]
 
     // Iteration
