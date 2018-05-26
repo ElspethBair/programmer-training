@@ -8,7 +8,7 @@ Every C++ program starts with *include statements*. They let you use functions a
     
     #include <iostream>
 
-(The header `<iostream>` gives you access to input and output helpers, like std::cin and std::out. )
+(The header `<iostream>` gives you access to input and output helpers, like `std::cin` and `std::cout`. )
 
 `include` statements are the equivalent of `import` statements. 
 
@@ -52,11 +52,11 @@ Including `<iostream>` allows you to use `std::cin` and `std::cout`. `std::cout`
 
 **More Misc. Initialization Syntax** 
 
-    TypeName var_name = to_copy;
-    TypeName var_name {param1, param2};
-    auto var_name = TypeName{param1, param2};
+    TypeName var_name = to_copy; --> type of variable; variable name; set to a value
+    TypeName var_name(param1, param2); --> type of output of function; function name; parameters of function 
+    auto var_name = TypeName{param1, param2}; --> setting variable to the output of the function 
 
-(this is pseudocode)
+(this is pseudocode --> a notation that looks like simplified code used in program design)
 
 **Function Declaration**
 
